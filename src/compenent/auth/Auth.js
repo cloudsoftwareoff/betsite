@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
-import { auth } from './firebase'; // Import Firebase authentication
+import { auth } from './firebase';
+
 import './styles.css'; // Import the CSS file
 
 function Auth() {
+
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
